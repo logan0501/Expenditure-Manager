@@ -1,6 +1,6 @@
 import Expenses from "./Components/Expenses";
 import NewExpense from "./Components/NewExpense/NewExpense";
-import { useState } from "react";
+import React,{ useState } from "react";
 
 const INITIAL_EXPENSES = [
   {
