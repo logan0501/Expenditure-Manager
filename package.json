@@ -1,7 +1,7 @@
 {
   "name": "react-complete-guide",
   "version": "0.1.0",
-  "homepage": "https://github.com/logan0501/Expenditure-Manager",
+  "homepage": "https://logan0501.github.io/Expenditure-Manager/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",

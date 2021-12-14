@@ -1,12 +1,6 @@
 import Expenses from "./Components/Expenses";
 import NewExpense from "./Components/NewExpense/NewExpense";
 import React,{ useState } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 const INITIAL_EXPENSES = [
   {
     id: 'e1',
@@ -37,14 +31,12 @@ function App() {
     setExpenses((prevdata)=>{return [data,...prevdata];});
   }
   return (
-    <Router>
-      <Route exact path="/">
+   
         <div>
           <NewExpense onSaveData={expenseHandler}/>
           <Expenses items={expenses}/>   
         </div>
-      </Route>
-    </Router>
+  
  
   );
 }
